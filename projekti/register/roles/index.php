@@ -28,7 +28,7 @@
         if($result->num_rows==1 && $_SESSION['role']=="qytetar"){
             header("location:qytetari.php");
         }else if($result->num_rows==1 && $_SESSION['role']=="administrator"){
-            header("location:administratori.php");
+            header("location:paneli/administratori.php");
         }else if($result->num_rows==1 && $_SESSION['role']=="moderator"){
             header("location:moderatori.php");
         }else{
