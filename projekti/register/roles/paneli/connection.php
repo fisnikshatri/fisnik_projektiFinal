@@ -10,18 +10,14 @@
 	// Check connection 
 	
 	if($conn->connect_error){
-		echo "Connection was failed";
+		echo "Konektimi Deshtoi!";
 	}
 	
 	// Remove this else code once database is connected otherwise everypage connected to database will show connection made on top. 
 	
 	else{
 		
-		echo "Connection made";
+		echo "Konektimi me sukses ne Database";
 		
 	}
 ?>
-
-<!--
-      ENCODED BY RAMEEZ SAFDAR / For more web and other programmings check out my channel nosgene https://www.youtube.com/channel/UCYbUaMVWujooISm4m7NDIeg
- -->
