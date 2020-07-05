@@ -48,6 +48,6 @@ if (mysqli_query($conn, $sql)) {
                 <input type="radio" name="userType" value="moderator" class="costum-radio" 
                         required>&nbsp;Moderator
 	<br>
-			<input type="submit" name="submit" value="add"/></center>
+			<input type="submit" name="submit" value="Krijo Userin"/></center>
 </body>
 </html>

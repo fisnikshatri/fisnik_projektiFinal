@@ -12,12 +12,4 @@
 	if($conn->connect_error){
 		echo "Konektimi Deshtoi!";
 	}
-	
-	// Remove this else code once database is connected otherwise everypage connected to database will show connection made on top. 
-	
-	else{
-		
-		echo "Konektimi me sukses ne Database";
-		
-	}
 ?>
