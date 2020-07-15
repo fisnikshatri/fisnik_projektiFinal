@@ -7,22 +7,22 @@
     </head>
     <body>
        <div class="contact-form">
-           <form action="#" method="GET" class="contact-us">
+           <form action="contactform.php" method="post" class="contact-form">
            <div class="one">
            <h1>Contact Us</h1>
            <label for="">Emri dhe Mbiemri</label>
            <input id="name" type="text" name="name">
 
             <label for="">Email</label>
-            <input id="email" type="email" name="email">
+            <input id="mail" type="text" name="email">
     
-            <label for="">Numri i Telefonit</label>
-            <input id="tel" type="tel" name="tel">
+            <label for="">Subject</label>
+            <input type="text" name="subject">
 
             <label for="">Mesazhi</label>
             <textarea></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit" name="submit">Send</button>
             </form>
            </div>
        </div>
