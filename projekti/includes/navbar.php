@@ -18,7 +18,7 @@
                 <a class="nav-link" href="aboutus.php">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../contactus/contactus.php">Contact Us</a>
+                <a class="nav-link" href="../projekti/contactus/contactus.php">Contact Us</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -26,7 +26,7 @@
                 <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="../register/index.html">Register/Login</a>
                     <a class="dropdown-item" href="../shop/cart.php">Shop</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="../projekti/register/roles/index.php">Rolet Login</a>
                 </div>
             </li>
 

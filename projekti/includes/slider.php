@@ -11,34 +11,34 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <div class="view">
-                <img class="d-block w-100" src="../images/banner.jpg" alt="First slide">
+                <img class="d-block w-100" src="../projekti/images/banner.jpg" alt="First slide">
                 <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Light mask</h3>
-                <p>First text</p>
+                <h3 class="h3-responsive">Fotoja e pare</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, nostrum?</p>
             </div>
         </div>
         <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="../images/banner2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="../projekti/images/banner2.jpg" alt="Second slide">
                 <div class="mask rgba-black-strong"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
+                <h3 class="h3-responsive">Fotoja 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, maiores explicabo eaque odio iusto corrupti!</p>
             </div>
         </div>
         <div class="carousel-item">
             <!--Mask color-->
             <div class="view">
-                <img class="d-block w-100" src="../images/banner3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="../projekti/images/banner3.jpg" alt="Third slide">
                 <div class="mask rgba-black-slight"></div>
             </div>
             <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
+                <h3 class="h3-responsive">Fotoja 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, recusandae id. Expedita doloremque eos numquam accusamus tempora fugit, ratione rerum.</p>
             </div>
         </div>
     </div>
