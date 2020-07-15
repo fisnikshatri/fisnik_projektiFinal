@@ -8,6 +8,8 @@
 
 <script type="text/javascript"></script>
 
+<p>Linku per GitHub: <a href="https://github.com/fisnikshatri/fisnik_projektiFinal/tree/master/projekti">Kliko Ketu</a></p>
+
 </body>
 
 </html>
