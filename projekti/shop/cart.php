@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $product_ids = array();
-session_destroy();
+//session_destroy();
 
 //check if Add to Cart button has been submited
 if(filter_input(INPUT_POST, 'add_to_cart')){
@@ -36,6 +36,23 @@ if(filter_input(INPUT_POST, 'add_to_cart')){
         );
     }
 }
+
+if(filter_input(INPUT_GET, 'action') == 'delete'){
+    foreach($_SESSION['shopping_cart'] as $key => $product){
+        if($product['id'] == filter_input(INPUT_GET, 'id')){
+            unset($_SESSION['shopping_cart'][$key]);    
+        }
+    }
+    $_SESSION['shopping_cart'] = array_values($_SESSION['shopping_cart']);
+}
+
+//pre_r($_SESSION);
+
+//function pre_r($array){
+  //  echo '<pre>';
+  //  print_r($array);
+  //  echo '<pre>';
+//}
 
 ?>
 
@@ -91,7 +108,7 @@ if(filter_input(INPUT_POST, 'add_to_cart')){
                 <th width="5%">Action</th>
             </tr>
             <?php 
-            if(!empty($_SESSION['shopping_cart']));
+            if(!empty($_SESSION['shopping_cart'])):
                 $total = 0;
 
                 foreach($_SESSION['shopping_cart'] as $key => $product):
@@ -127,6 +144,9 @@ if(filter_input(INPUT_POST, 'add_to_cart')){
                         endif; endif; ?>
                 </td>
             </tr>
+            <?php
+            endif;
+            ?>
             
         </table>
     </div>
